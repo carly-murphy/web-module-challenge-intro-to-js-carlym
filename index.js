@@ -28,7 +28,7 @@ Do the following:
 
 let votingAge = 19;
 
-if (votingAge => 18) {
+if (votingAge >= 18) {
   console.log('true');
 }
 
@@ -44,14 +44,14 @@ Do the following:
    HINT: no function required
 */
 
-let firstThing = 4;
-let secondThing = 7;
+// let firstThing = 4;
+// let secondThing = 7;
 
-if (firstThing === secondThing) {
-  let firstThing = 5;
-}
+// if (firstThing === secondThing) {
+//   let firstThing = 5;
+// }
 
-console.log (firstThing);
+// console.log (firstThing);
 
 
 
@@ -69,9 +69,9 @@ Do the following:
 
 let year = '1999';
 
-Number(year);
+let x = Number(year);
 
-console.log(year)
+console.log(x);
 
 
 /*
